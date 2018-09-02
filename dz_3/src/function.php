@@ -54,10 +54,8 @@ function task2()
                 $catalog_dec['book'][$key] = $new_name;
                 print_r($catalog_dec['book'][$key]);
             }
-
         };
         echo "поменяли $name на $new_name";
-        file_put_contents('output.json', json_encode($catalog));
         file_put_contents('output2.json', json_encode($catalog_dec));
         unset($catalog_dec);
     } else {
@@ -110,7 +108,7 @@ function task4()
     $result = curl_exec($init_url);
     curl_close($init_url);
     $result1 = json_decode($result, true);
-//    print_r($result1);
+
     echo "page_id : " . $result1['query']['pages']['15580374']['pageid'] . "<br>";
     echo "title : " . $result1['query']['pages']['15580374']['title'] . "<br>";
 
