@@ -3,6 +3,6 @@
 </br>
 <h3>репозитории ВП</h3>
 </br>
-вп-1 burger.form
-вп-2 mvc.loft
-вп-3 wp.loft
+<p>вп-1 burger.form</p>
+<p>вп-2 mvc.loft</p>
+<p>вп-3 wp.loft</p>
