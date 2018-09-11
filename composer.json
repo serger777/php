@@ -1,10 +1,14 @@
 {
-    "name": "pc05/php",
-    "authors": [
-        {
-            "name": "John Smith",
-            "email": "john@example.com"
-        }
-    ],
-    "require": {}
+  "name": "pc05/php",
+  "authors": [
+    {
+      "name": "John Smith",
+      "email": "john@example.com"
+    }
+  ],
+  "require": {
+    "swiftmailer/swiftmailer": "^6.1",
+    "intervention/image": "^2.4",
+    "twig/twig": "^2.0"
+  }
 }
